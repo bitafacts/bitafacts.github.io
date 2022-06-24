@@ -50,7 +50,7 @@ blockquote {
 }
 
 .tm-content-box {
-  padding-top: 20px;
+  padding-top: 60px;
   padding-bottom: 40px;
 }
 
@@ -194,7 +194,7 @@ blockquote {
 }
 
 .tm-hero-text-container-inner {
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .tm-hero-title {
@@ -525,9 +525,9 @@ figure.effect-honey:hover h2 i {
   background-color: #001828;
   background-position: center;
   background-repeat: no-repeat;
-  max-height: 450px;
+  max-height: 500px;
   position: relative;
-  padding-top: 30px;
+  padding-top: 100px;
 }
 
 .contact-item {
