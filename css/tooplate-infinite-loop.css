@@ -150,7 +150,7 @@ blockquote {
   background-color: #222;
   background-image: url(../img/infinite-loop-01.jpg);
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 90vh;
   min-height: 375px;
   position: relative;
 }
@@ -823,7 +823,7 @@ p {
   }
   .contactdetails {
     border-left: 1px solid #979db2;
-    height: 265px;
+    /* height: 265px; */
   }
   #addressid {
     color: white;
