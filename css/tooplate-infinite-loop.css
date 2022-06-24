@@ -527,7 +527,6 @@ figure.effect-honey:hover h2 i {
   background-repeat: no-repeat;
   max-height: 450px;
   position: relative;
-  /* padding-bottom: 50px; */
   padding-top: 30px;
 }
 
@@ -837,14 +836,11 @@ p {
   }
   #contact1 {
     color: white;
-    /* background-color: #001828; */
-    background-image: url(../img/footer1.jpg);
+    background-color: #001828;
     background-position: center;
     background-repeat: no-repeat;
     min-height: 220px;
     position: relative;
-    /* padding-bottom: 50px;
-    padding-top: 100px; */
   }
   .h2 {
     color: white;
