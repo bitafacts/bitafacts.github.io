@@ -487,18 +487,19 @@ https://www.tooplate.com/view/2117-infinite-loop
       $(window).scroll(function () {
         if ($(window).width() > 768) {
           if (Object.keys($object).length > 0) {
-            if (Object.keys($object.offset()).length > 0) {
-              {
-                var firstTop = $object.offset().top,
-                  pos = $(window).scrollTop(),
-                  yPos = Math.round((multiplier * (firstTop - pos)) - 186);
+            if ($object.offset() != null || $object.offset() != undefined) {
+              if (Object.keys($object.offset()).length > 0) {
+                {
+                  var firstTop = $object.offset().top,
+                    pos = $(window).scrollTop(),
+                    yPos = Math.round((multiplier * (firstTop - pos)) - 186);
 
-                var bg_css = 'center ' + yPos + 'px';
+                  var bg_css = 'center ' + yPos + 'px';
 
-                $object.css({ "background-position": bg_css });
+                  $object.css({ "background-position": bg_css });
+                }
               }
             }
-
           } else {
             $object.css({ "background-position": "center" });
           }

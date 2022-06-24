@@ -86,7 +86,8 @@ blockquote {
 }
 
 .tm-navbar.scroll {
-  background-color: white;
+  /* background-color: white; */
+  background-color: black;
   border-bottom: 1px solid #e9ecef;
 }
 
@@ -116,7 +117,7 @@ blockquote {
 }
 
 .tm-navbar.scroll .tm-nav-link {
-  color: #369;
+  color: white;
 }
 
 .tm-navbar.scroll .tm-nav-link:hover,
