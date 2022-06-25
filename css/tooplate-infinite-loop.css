@@ -117,7 +117,7 @@ blockquote {
 }
 
 .tm-navbar.scroll .tm-nav-link {
-  color: black;
+  color: white;
 }
 
 .tm-navbar.scroll .tm-nav-link:hover,
@@ -184,6 +184,7 @@ blockquote {
   #home {
     background-position: center -450px;
   }
+  
 }
 
 .tm-hero-text-container {
@@ -630,6 +631,7 @@ p {
     padding-right: 30px;
     padding-left: 30px;
   }
+
 }
 
 @media (min-width: 1200px) {
@@ -644,6 +646,7 @@ p {
   .tm-container-contact {
     max-width: 1063px;
   }
+
 }
 
 @media (max-width: 991px) {
@@ -680,7 +683,7 @@ p {
   }
 
   .navbar-collapse .nav-link {
-    color: #707070;
+    color: black!important;
     padding-right: 20px;
   }
 }
@@ -719,7 +722,7 @@ p {
 }
 
 #services .item:hover .hexagon {
-  background-color: #27b7fc;
+  background-color: #2951b9;
   border-color: #2951b9;
   color: #fff;
   background-position: 100% 100%;
