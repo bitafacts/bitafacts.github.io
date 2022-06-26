@@ -94,8 +94,7 @@ blockquote {
   transition: all 0.3s ease;
 
   letter-spacing: -1px;
-  font-weight: 600!important;
-
+  font-weight: 400!important;
   background: #3264f5;
   background: -moz-linear-gradient(left, #000 17%, #3264f5 80%);
   background: -webkit-linear-gradient(left, #000 17%,  #3264f5 80%);
@@ -948,3 +947,14 @@ hr {
   width: 100px;
   height: 90px;
 }
+
+.img-service-fluid {
+  width: 400px;
+  height: 300px;
+}
+
+.img-service-fluid-2 {
+  width: 400px;
+  height: 400px;
+}
+
