@@ -960,9 +960,9 @@ hr {
 
 .gradient-footer-bitafacts {
   background: #3264f5;
-  background: -moz-linear-gradient(left, #7004bc 2%, #4a1160 82%);
-  background: -webkit-linear-gradient(left, #7004bc 2%, #4a1160 82%);
-  background: linear-gradient(to right, #7004bc 2%, #4a1160 82%);
+  background: -moz-linear-gradient(left, #7004bc 2%, #3264f5 82%);
+  background: -webkit-linear-gradient(left, #7004bc 2%, #3264f5 82%);
+  background: linear-gradient(to right, #7004bc 2%, #3264f5 82%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3264f5', endColorstr='#7004bc',GradientType=1 );
 }
 
