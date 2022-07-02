@@ -966,3 +966,33 @@ hr {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3264f5', endColorstr='#7004bc',GradientType=1 );
 }
 
+.bitafacts-text {
+  color: #1935c1;
+  font-size: 65px;
+  letter-spacing: -2px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.bitafacts-text1 {
+  color: #f10c18;
+  font-size: 65px;
+  letter-spacing: -2px;
+  font-weight: bold;
+  width: 100%;
+}
+
+
+.gdlr-page-title-wrapper {
+  padding: 50px 0px 50px;
+  position: relative;
+  z-index: 89;
+  background-image: url(img/page-title-background.jpg);
+  background-repeat: repeat;
+  background-position: center 0px;
+}
+
+.morphext > .animated {
+      display: inline-block;
+  }
+  
