@@ -1001,4 +1001,14 @@ hr {
     font-weight: 500;
     display: inline;
   }
+
+  .bitafacts-main-logo {
+    height:70px;
+    width:90px;
+  }
+
+  .bitafacts-technology-image {
+    width:100px; 
+    height: 90px;
+  }
   
