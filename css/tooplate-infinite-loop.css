@@ -1011,4 +1011,35 @@ hr {
     width:100px; 
     height: 90px;
   }
+
+  .bitafacts-menu-separator {
+    height: 3px;
+    background-image: url(../img/border.jpg)
+  }
+
+  .tm-content-box-3 {
+    padding-top: 10px;
+  }
+
+  .technology-items-2 {
+    text-align: center;
+    padding-top: 20px;
+  }
   
+
+
+  .bitafacts-aboutus-image-development {
+    width:400px; 
+    height: 350px;
+    padding-top: 30px 
+  }
+
+  .bitafacts-aboutus-image-development-2 {
+    width:300px; 
+    height: 250px;
+  }
+
+  .list-style-square {
+    list-style-type: square;
+  }
+ 
