@@ -960,9 +960,86 @@ hr {
 
 .gradient-footer-bitafacts {
   background: #3264f5;
-  background: -moz-linear-gradient(left, #7004bc 2%, #4a1160 82%);
-  background: -webkit-linear-gradient(left, #7004bc 2%, #4a1160 82%);
-  background: linear-gradient(to right, #7004bc 2%, #4a1160 82%);
+  background: -moz-linear-gradient(left, #7004bc 2%, #3264f5 82%);
+  background: -webkit-linear-gradient(left, #7004bc 2%, #3264f5 82%);
+  background: linear-gradient(to right, #7004bc 2%, #3264f5 82%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3264f5', endColorstr='#7004bc',GradientType=1 );
 }
 
+.bitafacts-text {
+  color: #1935c1;
+  font-size: 65px;
+  letter-spacing: -2px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.bitafacts-text1 {
+  color: #f10c18;
+  font-size: 65px;
+  letter-spacing: -2px;
+  font-weight: bold;
+  width: 100%;
+}
+
+
+.gdlr-page-title-wrapper {
+  padding: 0px 0px 0px;
+  position: relative;
+  z-index: 89;
+  background-image: url(img/page-title-background.jpg);
+  background-repeat: repeat;
+  background-position: center 0px;
+}
+
+.morphext > .animated {
+      display: inline-block;
+  }
+
+  .bitafacts-h1{
+    font-size: 1.0rem;
+    font-weight: 500;
+    display: inline;
+  }
+
+  .bitafacts-main-logo {
+    height:70px;
+    width:90px;
+  }
+
+  .bitafacts-technology-image {
+    width:100px; 
+    height: 90px;
+  }
+
+  .bitafacts-menu-separator {
+    height: 3px;
+    background-image: url(../img/border.jpg)
+  }
+
+  .tm-content-box-3 {
+    padding-top: 10px;
+  }
+
+  .technology-items-2 {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+
+
+  .bitafacts-aboutus-image-development {
+    width:400px; 
+    height: 350px;
+    padding-top: 30px 
+  }
+
+  .bitafacts-aboutus-image-development-2 {
+    width:300px; 
+    height: 250px;
+  }
+
+  .list-style-square {
+    list-style-type: square;
+  }
+ 
