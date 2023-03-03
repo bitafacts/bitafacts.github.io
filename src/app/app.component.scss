@@ -1,0 +1,11 @@
+.container-fluid {
+    --bs-gutter-x: 0;
+}
+
+.app-main-layout {
+   // background-color: black;
+    background-image: url(../assets/img/background/Bitafacts-background.jpg);
+    background-size: cover;
+    opacity: 0.8;
+    min-height: 700px;
+}

@@ -1,0 +1,73 @@
+// Variable section
+$y-padding-navbar: 0;
+
+.navbar {
+  --bs-navbar-padding-y: $y-padding-navbar !important;
+}
+
+.bitafacts-logo-size {
+  height: 80px;
+  width: 100px;
+}
+
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+  .bitafacts-logo-size {
+    padding-left: 10px !important;
+  }
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .bitafacts-logo-size {
+    padding-left: 100px !important;
+  }
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {}
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px) and (orientation: landscape) {
+  .bitafacts-logo-size {
+    padding-left: 0px !important;
+  }
+}
+
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+  .bitafacts-logo-size {
+    padding-left: 0px !important;
+  }
+}
+
+/* For iPhone 4 Portrait or Landscape View */
+@media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+  .gfg-div {
+    width: 400px;
+    height: 400px;
+    background-color: brown;
+    color: black;
+  }
+}
+
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+  .gfg-div {
+    width: 400px;
+    height: 400px;
+    background-color: cornflowerblue;
+    color: black;
+  }
+}
+
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
+  .gfg-div {
+    width: 400px;
+    height: 400px;
+    background-color: darkgoldenrod;
+    color: black;
+  }
+}

@@ -1,0 +1,46 @@
+<div>
+    <nav class="navbar navbar-expand-md tm-navbar navbar-dark bg-dark">
+        <div class="container-fluid  bitafacts-logo">
+            <div class="ml-3">
+                <a routerLink="/" class="navbar-brand tm-next">
+                    <img class="bitafacts-logo-size" [src]="imageUrl" />
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+                (click)="navbarCollapsed = !navbarCollapsed" [attr.aria-expanded]="!navbarCollapsed"
+                aria-controls="navbarColor02" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div [ngClass]="{'collapse': navbarCollapsed, 'navbar-collapse': true}" class="float-end"
+                id="navbarColor02">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" (click)="navbarCollapsed = !navbarCollapsed" routerLink="/">Home
+                            <span class="visually-hidden">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" (click)="navbarCollapsed = !navbarCollapsed" routerLink="/about">About
+                            Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" (click)="navbarCollapsed = !navbarCollapsed"
+                            routerLink="/services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" (click)="navbarCollapsed = !navbarCollapsed"
+                            routerLink="/technology">Technology</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" (click)="navbarCollapsed = !navbarCollapsed"
+                            routerLink="/careers">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" (click)="navbarCollapsed = !navbarCollapsed" routerLink="/contact">Contact
+                            Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
