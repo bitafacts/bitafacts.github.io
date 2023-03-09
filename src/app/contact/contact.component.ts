@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class ContactComponent {
 
+  SendMail() {
+    alert("Unable to send mail!");
+  }
+
 }

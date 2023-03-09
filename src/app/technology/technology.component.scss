@@ -1,6 +1,6 @@
 .item-tech {
     width: 100px;
-    height: 90px;
+    height: 100px;
   }
 
   .technology-items {
@@ -16,5 +16,10 @@
   
   .bitafacts-technology-image {
     width:100px; 
-    height: 90px;
+    height: 100px;
+  }
+  .container-background {
+    background-image: url(../../assets/img/background/Bitafacts-white-background-3.jpg);
+    background-size: cover;
+    min-height: 700px;
   }
